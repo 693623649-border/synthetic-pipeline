@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# ---- 包管理器缓存 ----
+pip-wheel-metadata/
+
+# ---- 工具 / 本地状态 ----
+.omc/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- 生成产物（可通过 run_repro.py 重新生成）----
+artifacts/zoo_bus_repro/
+
+# ---- 测试 / 覆盖率 ----
+.pytest_cache/
+.coverage
+htmlcov/
